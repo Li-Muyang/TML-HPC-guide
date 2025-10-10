@@ -273,34 +273,7 @@ scancel <job_id>
 
 For questions or issues, contact: **muyang.li@sydney.edu.au**
 
-## Contributing
 
 Make a pull request if you want to contribute to this guide.
 
----
 
-## Quick Reference
-
-```bash
-# Setup environment (do this every session)
-export HOME=/scratch/pawsey1015/username
-
-# Load modules
-module load python/3.11.6
-module load rocm/6.2.4
-
-# Activate venv
-source my_env/bin/activate
-
-# Interactive session
-salloc -p gpu-dev -N 1 --gres=gpu:1 -A pawsey1015-gpu --time=04:00:00
-
-# Submit job
-sbatch job.sh
-
-# Check jobs
-squeue -u $USER
-
-# Cancel job
-scancel <job_id>
-```
