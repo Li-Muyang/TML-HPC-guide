@@ -21,6 +21,8 @@ Once you have an account, you must **strictly adhere** to the following rules be
 
 **Violation of these rules may result in loss of HPC privileges and other penalties.**
 
+In addition to this guide, University SIH also offers a concise [trimmed guide](https://sydneyuni.atlassian.net/wiki/spaces/RC/pages/3774644320/Setonix+technical+guide)
+
 ---
 
 ## 1. Working Directory Setup
