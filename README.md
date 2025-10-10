@@ -17,6 +17,7 @@ Once you have an account, you must **strictly adhere** to the following rules be
 1. Strictly comply with Setonix's [Terms of Use](https://pawsey.atlassian.net/wiki/spaces/US/pages/51926766/Conditions+of+Use)
 2. Do not waste or over-use computational resources
 3. Do not run code that does not contribute to TML projects
+4. Acknowledge Pawsey in your published works
 
 **Violation of these rules may result in loss of HPC privileges and other penalties.**
 
@@ -79,8 +80,6 @@ module avail python
 
 This allows you to check available but not yet officially supported software.
 
-### Load Python and Create Virtual Environment
-
 Suppose you want to work with Python 3.11.6:
 
 ```bash
@@ -121,8 +120,6 @@ module avail rocm
 ```
 
 We currently recommend using **ROCm 6.2.4** or **ROCm 6.3.2**, depending on the PyTorch version you need to use.
-
-### Check PyTorch and ROCm Compatibility
 
 You can check the correspondence between PyTorch versions and ROCm versions at:  
 https://pytorch.org/get-started/previous-versions/
